@@ -37,8 +37,8 @@ $(document).ready(function() {
             }
             else if (hourBlock === currentTime) {
                 $(this).removeClass("past");
-                $(this).addClass("future");
-                $(this).removeClass("present");
+                $(this).addClass("present");
+                $(this).removeClass("future");
             }
             else {
                 $(this).removeClass("present");
