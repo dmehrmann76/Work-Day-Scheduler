@@ -11,15 +11,16 @@ $(document).ready(function() {
         
     })
     //each hours text area is saved into local storage
+    $("#time8 .input").val(localStorage.getItem("time8"));
     $("#time9 .input").val(localStorage.getItem("time9"));
     $("#time10 .input").val(localStorage.getItem("time10"));
     $("#time11 .input").val(localStorage.getItem("time11"));
     $("#time12 .input").val(localStorage.getItem("time12"));
-    $("#time1 .input").val(localStorage.getItem("time1"));
-    $("#time2 .input").val(localStorage.getItem("time2"));
-    $("#time3 .input").val(localStorage.getItem("time3"));
-    $("#time4 .input").val(localStorage.getItem("time4"));
-    $("#time5 .input").val(localStorage.getItem("time5"));
+    $("#time13 .input").val(localStorage.getItem("time13"));
+    $("#time14 .input").val(localStorage.getItem("time14"));
+    $("#time15 .input").val(localStorage.getItem("time15"));
+    $("#time16 .input").val(localStorage.getItem("time16"));
+    $("#time17 .input").val(localStorage.getItem("time17"));
 
 
     //function that checks the current time
