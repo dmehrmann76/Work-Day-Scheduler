@@ -25,7 +25,7 @@ $(document).ready(function() {
     //function that checks the current time
     function hourCheck() {
         var currentTime = moment().hour();
-
+        
         $(".time-line").each(function() {
             var hourBlock = parseInt($(this).attr("id").split("time")[1]);
 
