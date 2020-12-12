@@ -1,6 +1,6 @@
 // load document in proper order
 $(document).ready(function() {
-    $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a"));
+    $("#currentDay").text(moment().format("MMMM Do YYYY"));
     // When save icon is pressed function begins
     $(".saveBtn").on("click", function() {
         // Defining where to pull data from to store in local storage
