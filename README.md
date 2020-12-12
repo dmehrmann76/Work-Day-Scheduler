@@ -2,7 +2,7 @@
 
 A simple calendar application that allows a user to save events for each hour of the day using Moment.js.  This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-
+![image](https://github.com/dmehrmann76/Work-Day-Scheduler/blob/main/assets/Work%20Day.png)
 ```
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
