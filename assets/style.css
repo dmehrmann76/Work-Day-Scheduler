@@ -4,7 +4,6 @@ body {
   line-height: 1;
 }
 
-
 textarea{
   background: transparent;
   border: none;
@@ -22,9 +21,6 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.input{
-  white-space: pre-wrap;
-}
 
 .time-line{
   text-align: center;
