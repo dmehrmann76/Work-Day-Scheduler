@@ -4,6 +4,7 @@ body {
   line-height: 1;
 }
 
+
 textarea{
   background: transparent;
   border: none;
@@ -25,9 +26,9 @@ textarea{
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-line{
   text-align: center;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .row {
